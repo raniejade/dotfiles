@@ -2,6 +2,7 @@
 	"color_scheme": "Packages/Express Color Scheme/Express.tmTheme",
 	"draw_white_space": "all",
 	"font_face": "Source Code Pro",
+	"font_size": 9,
 	"hot_exit": false,
 	"ignored_packages":
 	[
