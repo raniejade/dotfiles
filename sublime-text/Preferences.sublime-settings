@@ -11,5 +11,6 @@
 	"remember_open_files": false,
 	"tabs_small": true,
 	"theme": "Afterglow-green.sublime-theme",
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"detect_indention": false
 }
