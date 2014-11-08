@@ -1,5 +1,6 @@
 {
 	"color_scheme": "Packages/Express Color Scheme/Express.tmTheme",
+	"detect_indention": false,
 	"draw_white_space": "all",
 	"font_face": "Source Code Pro",
 	"font_size": 9,
@@ -10,7 +11,6 @@
 	],
 	"remember_open_files": false,
 	"tabs_small": true,
-	"theme": "Afterglow-green.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"detect_indention": false
+	"theme": "Default.sublime-theme",
+	"translate_tabs_to_spaces": true
 }
