@@ -5,9 +5,10 @@ execute pathogen#infect()
 set t_Co=256
 
 " colorscheme
-colorscheme molokai
-let g:molokai_original = 1
-"set background=dark
+colorscheme solarized
+set background=dark
+let g:solarized_termcolors=256
+let g:solarized_termtrans=0
 
 " syntax
 syntax on
