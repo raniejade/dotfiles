@@ -1,9 +1,9 @@
 {
-	"color_scheme": "Packages/Express Color Scheme/Express.tmTheme",
+	"color_scheme": "Packages/3024 Color Scheme/3024 Night.tmTheme",
 	"detect_indention": false,
 	"draw_white_space": "all",
 	"font_face": "Source Code Pro",
-	"font_size": 9,
+	"font_size": 11,
 	"hot_exit": false,
 	"ignored_packages":
 	[
@@ -11,6 +11,6 @@
 	],
 	"remember_open_files": false,
 	"tabs_small": true,
-	"theme": "Default.sublime-theme",
+	"theme": "Afterglow.sublime-theme",
 	"translate_tabs_to_spaces": true
 }
