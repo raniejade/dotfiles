@@ -12,5 +12,7 @@
 	"remember_open_files": false,
 	"tabs_small": true,
 	"theme": "Afterglow.sublime-theme",
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"rulers": [120],
+	"ensure_newline_at_eof_on_save": true
 }
