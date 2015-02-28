@@ -1,18 +1,22 @@
 {
-	"color_scheme": "Packages/3024 Color Scheme/3024 Night.tmTheme",
+	"color_scheme": "Packages/Theme - Afterglow/Afterglow-twilight.tmTheme",
 	"detect_indention": false,
 	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Source Code Pro",
 	"font_size": 11,
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"Markdown"
 	],
 	"remember_open_files": false,
+	"rulers":
+	[
+		120
+	],
 	"tabs_small": true,
 	"theme": "Afterglow.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"rulers": [120],
-	"ensure_newline_at_eof_on_save": true
+	"translate_tabs_to_spaces": true
 }

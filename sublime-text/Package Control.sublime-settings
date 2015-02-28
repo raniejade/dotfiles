@@ -1,14 +1,19 @@
 {
 	"debug": false,
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"3024 Color Scheme",
 		"Darkula Color Scheme",
 		"Emmet",
 		"Express Color Scheme",
+		"MarkdownEditing",
 		"Package Control",
 		"Theme - Afterglow",
 		"Theme - Numix",
-		"Themr"
+		"Themr",
+		"ThriftSyntax"
 	]
 }
