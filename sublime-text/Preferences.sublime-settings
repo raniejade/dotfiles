@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Theme - Afterglow/Afterglow-twilight.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"detect_indention": false,
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
@@ -17,6 +17,6 @@
 		120
 	],
 	"tabs_small": true,
-	"theme": "Afterglow.sublime-theme",
+	"theme": "Numix.sublime-theme",
 	"translate_tabs_to_spaces": true
 }
