@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 	"detect_indention": false,
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
@@ -17,6 +17,6 @@
 		120
 	],
 	"tabs_small": true,
-	"theme": "Numix.sublime-theme",
+	"theme": "Material-Theme-Darker.sublime-theme",
 	"translate_tabs_to_spaces": true
 }
