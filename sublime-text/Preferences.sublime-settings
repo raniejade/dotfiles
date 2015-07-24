@@ -1,5 +1,9 @@
 {
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	"theme": "Seti.sublime-theme",
+	"color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
+	"overlay_scroll_bars": "enabled",
+	"highlight_line": true,
+
 	"detect_indention": false,
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
@@ -17,6 +21,6 @@
 		120
 	],
 	"tabs_small": true,
-	"theme": "Material-Theme-Darker.sublime-theme",
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }
