@@ -6,7 +6,7 @@
   core:
     themes: [
       "atom-material-ui"
-      "atom-dark-syntax"
+      "atom-material-syntax"
     ]
   editor:
     invisibles: {}
