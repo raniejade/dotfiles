@@ -1,0 +1,17 @@
+"*":
+  "exception-reporting":
+    userId: "1c9e9269-a6fd-16fd-3ca7-c01557b5629e"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "atom-material-ui"
+      "atom-dark-syntax"
+    ]
+  editor:
+    invisibles: {}
+    showIndentGuide: true
+    tabLength: 4
+    showInvisibles: true
+    preferredLineLength: 120
+    softTabs: false

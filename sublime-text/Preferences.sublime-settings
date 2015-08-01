@@ -1,26 +1,25 @@
 {
-	"theme": "Seti.sublime-theme",
 	"color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
-	"overlay_scroll_bars": "enabled",
-	"highlight_line": true,
-
 	"detect_indention": false,
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Source Code Pro",
 	"font_size": 11,
+	"highlight_line": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Markdown"
+		"Markdown",
+		"Vintage"
 	],
+	"overlay_scroll_bars": "enabled",
 	"remember_open_files": false,
 	"rulers":
 	[
 		120
 	],
 	"tabs_small": true,
+	"theme": "Seti.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }
