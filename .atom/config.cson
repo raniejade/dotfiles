@@ -14,4 +14,4 @@
     tabLength: 4
     showInvisibles: true
     preferredLineLength: 120
-    softTabs: false
+    softTabs: true

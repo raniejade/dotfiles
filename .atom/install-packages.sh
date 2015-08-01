@@ -1,4 +1,12 @@
-#! /bin/sh
+#! /bin/bash
 
-apm install seti-ui
-apm install seti-syntax
+PACKAGES=(
+    seti-ui
+    seti-syntax
+    minimap
+    pigments
+)
+
+for PACKAGE in ${PACKAGES[@]}; do
+    apm install $PACKAGE
+done
