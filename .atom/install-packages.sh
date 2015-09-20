@@ -5,6 +5,7 @@ PACKAGES=(
     seti-syntax
     minimap
     pigments
+    emmet
 )
 
 for PACKAGE in ${PACKAGES[@]}; do
