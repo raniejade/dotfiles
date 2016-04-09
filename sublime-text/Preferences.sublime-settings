@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"detect_indention": false,
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
@@ -19,7 +19,7 @@
 		120
 	],
 	"tabs_small": true,
-	"theme": "Seti.sublime-theme",
+	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }
