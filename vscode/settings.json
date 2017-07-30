@@ -21,5 +21,8 @@
     },
     "[json]": {
         "editor.tabSize": 2
-    }
+    },
+    "editor.fontFamily": "'Fira Code'",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true
 }
