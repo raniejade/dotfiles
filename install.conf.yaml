@@ -1,0 +1,15 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+  - [echo "source $HOME/dotfiles/zshrc" >> $HOME/.zshrc]
+
+- link:
+    ~/.vim: vim
+    ~/.vimrc: vimrc
+    ~/.vscode/snippets: vscode/snippets
+    ~/.vscode/settings.json: vscode/settings.json
