@@ -11,5 +11,3 @@
 - link:
     ~/.vim: vim
     ~/.vimrc: vimrc
-    ~/.vscode/snippets: vscode/snippets
-    ~/.vscode/settings.json: vscode/settings.json
