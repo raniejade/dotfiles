@@ -17,7 +17,7 @@ syntax on
 " highlight cursor location
 set cursorline
 set cursorcolumn
-hi CursorLine term=underline cterm=underline guibg=underline
+hi CursorLine term=underline cterm=underline 
 
 " tab behavior
 set tabstop=4
