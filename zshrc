@@ -47,7 +47,7 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git gradle sudo tmux)
 
-ZSH_TMUX_AUTOSTART="true"
+ZSH_TMUX_AUTOSTART="false"
 ZSH_TMUX_FIXTERM="true"
 
 source $ZSH/oh-my-zsh.sh
