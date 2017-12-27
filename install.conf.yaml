@@ -6,7 +6,6 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-  - [echo "source $HOME/dotfiles/zshrc" >> $HOME/.zshrc]
   - [mkdir -p $HOME/.tmux/plugins]
 
 - link:
@@ -14,3 +13,6 @@
     ~/.vimrc: vimrc
     ~/.tmux.conf: tmux.conf
     ~/.tmux/plugins/tpm: tpm
+    ~/.zshrc: zshrc
+    ~/.zlogin: zlogin
+    ~/.zimrc: zimrc
