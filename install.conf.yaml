@@ -7,7 +7,6 @@
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
   - [mkdir -p $HOME/.tmux/plugins]
-  - [git clone --recursive https://github.com/Eriner/zim.git ${ZDOTDIR:-${HOME}}/.zim]
 
 - link:
     ~/.vim: vim
