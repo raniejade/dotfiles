@@ -10,3 +10,4 @@ export ZIM_HOME=${ZDOTDIR:-${HOME}}/.zim
 
 alias ts="tmux new-session -t"
 alias tl="tmux list-sessions"
+alias ta="tmux attach-session -t"
