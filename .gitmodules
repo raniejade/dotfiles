@@ -19,3 +19,6 @@
 [submodule "tpm"]
 	path = tpm
 	url = https://github.com/tmux-plugins/tpm
+[submodule "jenv"]
+	path = jenv
+	url = https://github.com/gcuisinier/jenv.git

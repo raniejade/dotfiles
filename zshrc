@@ -16,3 +16,7 @@ alias ta="tmux attach-session -t"
 alias td="tmux detach"
 alias tlw="tmux list-windows"
 alias mux="tmuxinator"
+
+# jEnv
+export PATH="$HOME/dotfiles/jenv/bin:$PATH"
+eval "$(jenv init -)"
