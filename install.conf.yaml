@@ -13,6 +13,5 @@
     ~/.vimrc: vimrc
     ~/.tmux.conf: tmux.conf
     ~/.tmux/plugins/tpm: tpm
-    ~/.zshrc: zshrc
     ~/.zlogin: zlogin
     ~/.zimrc: zimrc
