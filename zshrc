@@ -18,8 +18,10 @@ alias tlw="tmux list-windows"
 alias mux="tmuxinator"
 
 # jEnv
+# rehash is done in the background since it's very slow
 export PATH="$HOME/dotfiles/jenv/bin:$PATH"
-eval "$(jenv init -)"
+eval "$(jenv init - --no-rehash)"
+(jenv rehash &) 2> /dev/null
 
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
