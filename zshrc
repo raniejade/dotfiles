@@ -20,3 +20,6 @@ alias mux="tmuxinator"
 # jEnv
 export PATH="$HOME/dotfiles/jenv/bin:$PATH"
 eval "$(jenv init -)"
+
+# fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
