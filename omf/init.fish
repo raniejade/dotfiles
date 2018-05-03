@@ -5,3 +5,4 @@ end
 function X86
     echo '(X86)'
 end
+
