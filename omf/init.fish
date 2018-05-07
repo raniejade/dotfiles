@@ -30,3 +30,28 @@ end
 function mux
     command tmuxinator $argv
 end
+
+# WSL Specific shortcuts
+if test -n WSL
+    function gradlew
+        command cmd.exe /c gradlew.bat $argv
+    end
+
+    function cargo
+        command cargo.exe $argv
+    end
+
+    function rustup
+        command rustup.exe $argv
+    end
+end
+
+
+# Git aliases
+function gco
+    command git checkout $argv
+end
+
+function gb
+    command git branch $argv
+end
