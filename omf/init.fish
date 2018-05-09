@@ -55,3 +55,39 @@ end
 function gb
     command git branch $argv
 end
+
+# Github aliases
+function __git-base-branch
+    command git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@'
+end
+
+function __git-current-branch
+    command git rev-parse --abbrev-ref HEAD
+end
+
+function gh-repo-link
+    command git remote get-url origin | sed -n 's_.*:\\(.*\\)\\.git_https://github.com/\\1_p'
+end
+
+function gh-pr-link
+    set -l base (__git-base-branch)
+    set -l repo_link (gh-repo-link)
+    set -l branch (__git-current-branch)
+    if [ "$base" = "$branch" ]
+        echo "Invalid base branch."
+        return 1
+    end
+    set -l pr_link $repo_link/compare/$base..$branch
+    echo $pr_link
+end
+
+function gh-publish
+    if set -l pr_link (gh-pr-link)
+        set -l branch (__git-current-branch)
+        command git push -u origin $branch
+        command gh-pr-link
+    else
+        echo "Invalid base branch."
+        return 1
+    end
+end
