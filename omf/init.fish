@@ -77,15 +77,16 @@ function gh-pr-link
         echo "Invalid base branch."
         return 1
     end
-    set -l pr_link $repo_link/compare/$base..$branch
+    set -l pr_link $repo_link/compare/$base...$branch
     echo $pr_link
 end
 
 function gh-publish
     if set -l pr_link (gh-pr-link)
         set -l branch (__git-current-branch)
+        echo "Pushing $branch to origin."
         command git push -u origin $branch
-        command gh-pr-link
+        echo "Create PR using this url: $pr_link"
     else
         echo "Invalid base branch."
         return 1
