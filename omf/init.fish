@@ -44,6 +44,22 @@ if test -n WSL
     function rustup
         command rustup.exe $argv
     end
+
+    function kubectl
+        command kubectl.exe $argv
+    end
+
+    function minikube
+        command minikube.exe $argv
+    end
+
+    function docker
+        command docker.exe $argv
+    end
+
+    function docker-machine
+        command docker-machine.exe $argv
+    end
 end
 
 
