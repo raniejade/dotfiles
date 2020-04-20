@@ -1,3 +1,4 @@
+package bass
 package https://github.com/jhillyerd/plugin-git
 theme default
 theme edan
