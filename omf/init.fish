@@ -32,35 +32,35 @@ function mux
 end
 
 # WSL Specific shortcuts
-if test -n WSL
-    function gradlew
-        command cmd.exe /c gradlew.bat $argv
-    end
-
-    function cargo
-        command cargo.exe $argv
-    end
-
-    function rustup
-        command rustup.exe $argv
-    end
-
-    function kubectl
-        command kubectl.exe $argv
-    end
-
-    function minikube
-        command minikube.exe $argv
-    end
-
-    function docker
-        command docker.exe $argv
-    end
-
-    function docker-machine
-        command docker-machine.exe $argv
-    end
-end
+#if test -n WSL
+#    function gradlew
+#        command cmd.exe /c gradlew.bat $argv
+#    end
+#
+#    function cargo
+#        command cargo.exe $argv
+#    end
+#
+#    function rustup
+#        command rustup.exe $argv
+#    end
+#
+#    function kubectl
+#        command kubectl.exe $argv
+#    end
+#
+#    function minikube
+#        command minikube.exe $argv
+#    end
+#
+#    function docker
+#        command docker.exe $argv
+#    end
+#
+#    function docker-machine
+#        command docker-machine.exe $argv
+#    end
+#end
 
 
 # Git aliases
