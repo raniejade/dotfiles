@@ -1,6 +1,8 @@
 package bass
+package foreign-env
 package https://github.com/jethrokuan/fzf
 package https://github.com/jhillyerd/plugin-git
+package sdk
 theme clearance
 theme default
 theme edan
